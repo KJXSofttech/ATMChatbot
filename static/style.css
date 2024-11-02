@@ -1,9 +1,11 @@
+/* Body Styles */
 body {
     font-family: 'Roboto', Arial, sans-serif;
     margin: 0;
-    background: transparent; /* Make the background transparent */
+    background: transparent;
 }
 
+/* Chat Icon Styles */
 .chat-icon {
     position: fixed;
     bottom: 20px;
@@ -17,7 +19,7 @@ body {
     font-size: 20px;
     text-align: center;
     transition: all 0.3s ease;
-    z-index: 1000; /* Ensure it's always on top */
+    z-index: 1000;
 }
 
 .chat-icon:hover {
@@ -25,6 +27,7 @@ body {
     transform: scale(1.1);
 }
 
+/* Chatbot Container Styles */
 .phone-container {
     width: 300px;
     height: 500px;
@@ -38,8 +41,8 @@ body {
     overflow: hidden;
     border: 1px solid #b2dfdb;
     animation: slideIn 0.3s ease-out;
-    background-color: white; /* Slightly opaque white background */
-    z-index: 1001; /* Ensure it's on top when visible */
+    background-color: white;
+    z-index: 1001;
 }
 
 @keyframes slideIn {
@@ -53,6 +56,7 @@ body {
     }
 }
 
+/* Header Styles */
 .phone-header {
     background-color: #003366;
     color: white;
@@ -92,13 +96,15 @@ body {
     transform: scale(1.2);
 }
 
+/* Chat Container Styles */
 .chat-container {
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
     overflow: hidden;
     padding: 8px;
+    position: relative;
 }
 
 .chat-box {
@@ -108,8 +114,10 @@ body {
     background-color: rgba(224, 247, 250, 0.8);
     border-radius: 10px;
     box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 60px; /* Adjusted to accommodate input area */
 }
 
+/* Message Styles */
 .chat-message-container {
     display: flex;
     align-items: center;
@@ -165,6 +173,7 @@ body {
     margin: 0 8px;
 }
 
+/* Option Button Styles */
 .option-button {
     background-color: #003366;
     color: white;
@@ -187,6 +196,7 @@ body {
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
+/* Input Area Styles */
 .input-container {
     display: flex;
     justify-content: space-between;
@@ -196,6 +206,9 @@ body {
     border-top: 1px solid #b2dfdb;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .input-box {
@@ -239,4 +252,47 @@ body {
 .reset-icon, .close-icon {
     cursor: pointer;
     font-size: 16px;
+}
+
+/* Dropdown Styles */
+.dropdown-container {
+    margin: 8px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #b2dfdb;
+    border-radius: 15px;
+    background-color: white;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+.dropdown:focus {
+    border-color: #003366;
+    outline: none;
+}
+
+.dropdown-container select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%23003366" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+    background-size: 12px;
+}
+
+.dropdown-container::after {
+    content: '';
+    position: absolute;
+    right: 35px;
+    top: calc(50% + 8px);
+    width: 0;
+    height: 0;
+    pointer-events: none;
 }
