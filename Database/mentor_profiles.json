@@ -1,0 +1,475 @@
+[
+  {
+    "category": "Customer Service",
+    "subcategories": {
+      "Tech Support": {
+        "Technical Support Specialist": [
+          {
+            "_id": "John_2101",
+            "basic_info": {
+              "full_name": "John Doe",
+              "headline": "Tech Support Specialist",
+              "location": "Dallas, USA",
+              "mentor_image_url": "https://example.com/john_tech_profile.jpg",
+              "background_image": "https://example.com/john_tech_background.jpg"
+            },
+            "professional_details": {
+              "about": "Specialist in troubleshooting and resolving technical issues across devices and software.",
+              "skills": ["Troubleshooting", "Customer Support", "Windows OS"],
+              "specialization": ["Device Management", "Software Installation"],
+              "education": ["Diploma in IT Support"],
+              "experience": "5 years in technical support",
+              "year_of_experience": { "$numberInt": "5" }
+            },
+            "availability": {
+              "available_day_slots": {
+                "Monday": "09:00-11:00",
+                "Wednesday": "15:00-17:00"
+              },
+              "availability_status": "Yes"
+            },
+            "rating_info": {
+              "rating": { "$numberDouble": "4.6" },
+              "mentor_rating_trend": "Stable",
+              "mentor_final_rating": { "$numberDouble": "4.6" }
+            },
+            "other_details": {
+              "certifications": ["CompTIA IT Fundamentals"],
+              "courses_taught": ["Introduction to Troubleshooting", "Tech Support Basics"],
+              "preferred_teaching_style": "Hands-on",
+              "category": "Customer Service",
+              "subcategory": "Tech Support"
+            }
+          },
+          {
+            "_id": "Emily_2102",
+            "basic_info": {
+              "full_name": "Emily Johnson",
+              "headline": "Technical Support Advisor",
+              "location": "Austin, USA",
+              "mentor_image_url": "https://example.com/emily_tech_profile.jpg",
+              "background_image": "https://example.com/emily_tech_background.jpg"
+            },
+            "professional_details": {
+              "about": "Experienced in guiding users through technical support issues and solutions.",
+              "skills": ["Help Desk Support", "Remote Assistance", "Customer Service"],
+              "specialization": ["Remote Troubleshooting", "Customer Engagement"],
+              "education": ["BSc in Information Systems"],
+              "experience": "6 years in technical support",
+              "year_of_experience": { "$numberInt": "6" }
+            },
+            "availability": {
+              "available_day_slots": {
+                "Tuesday": "13:00-15:00",
+                "Thursday": "10:00-12:00"
+              },
+              "availability_status": "Yes"
+            },
+            "rating_info": {
+              "rating": { "$numberDouble": "4.7" },
+              "mentor_rating_trend": "Increasing",
+              "mentor_final_rating": { "$numberDouble": "4.7" }
+            },
+            "other_details": {
+              "certifications": ["Certified Technical Support Professional"],
+              "courses_taught": ["Advanced Help Desk Skills", "Remote Customer Service"],
+              "preferred_teaching_style": "Analytical",
+              "category": "Customer Service",
+              "subcategory": "Tech Support"
+            }
+          }
+        ]
+      },
+      "Other Customer Service & Tech Support": {
+        "Customer Service Representative": [
+          {
+            "_id": "Alice_2201",
+            "basic_info": {
+              "full_name": "Alice Brown",
+              "headline": "Customer Service Rep",
+              "location": "Los Angeles, USA",
+              "mentor_image_url": "https://example.com/alice_customer_profile.jpg",
+              "background_image": "https://example.com/alice_customer_background.jpg"
+            },
+            "professional_details": {
+              "about": "Expert in customer interaction and issue resolution across various service platforms.",
+              "skills": ["Communication", "Problem Solving", "CRM"],
+              "specialization": ["Issue Resolution", "Customer Retention"],
+              "education": ["BA in Communication"],
+              "experience": "4 years in customer service",
+              "year_of_experience": { "$numberInt": "4" }
+            },
+            "availability": {
+              "available_day_slots": {
+                "Wednesday": "10:00-12:00",
+                "Friday": "14:00-16:00"
+              },
+              "availability_status": "Yes"
+            },
+            "rating_info": {
+              "rating": { "$numberDouble": "4.8" },
+              "mentor_rating_trend": "Stable",
+              "mentor_final_rating": { "$numberDouble": "4.8" }
+            },
+            "other_details": {
+              "certifications": ["Certified Customer Service Professional"],
+              "courses_taught": ["Customer Retention Strategies", "Effective Communication"],
+              "preferred_teaching_style": "Interactive",
+              "category": "Customer Service",
+              "subcategory": "Other Customer Service & Tech Support"
+            }
+          },
+          {
+            "_id": "Tom_2202",
+            "basic_info": {
+              "full_name": "Tom Lee",
+              "headline": "Customer Service Advisor",
+              "location": "Chicago, USA",
+              "mentor_image_url": "https://example.com/tom_customer_profile.jpg",
+              "background_image": "https://example.com/tom_customer_background.jpg"
+            },
+            "professional_details": {
+              "about": "Experienced advisor focused on customer service and complaint resolution.",
+              "skills": ["Active Listening", "Customer Engagement", "Conflict Resolution"],
+              "specialization": ["Complaint Resolution", "Customer Satisfaction"],
+              "education": ["BBA in Management"],
+              "experience": "5 years in customer service",
+              "year_of_experience": { "$numberInt": "5" }
+            },
+            "availability": {
+              "available_day_slots": {
+                "Monday": "11:00-13:00",
+                "Thursday": "15:00-17:00"
+              },
+              "availability_status": "Yes"
+            },
+            "rating_info": {
+              "rating": { "$numberDouble": "4.7" },
+              "mentor_rating_trend": "Increasing",
+              "mentor_final_rating": { "$numberDouble": "4.7" }
+            },
+            "other_details": {
+              "certifications": ["Customer Service Excellence"],
+              "courses_taught": ["Customer Service Basics", "Handling Complaints"],
+              "preferred_teaching_style": "Project-based",
+              "category": "Customer Service",
+              "subcategory": "Other Customer Service & Tech Support"
+            }
+          }
+        ]
+      },
+      "Customer Success": {
+        "Customer Success Manager": [
+          {
+            "_id": "James_2301",
+            "basic_info": {
+              "full_name": "James Wilson",
+              "headline": "Customer Success Manager",
+              "location": "San Diego, USA",
+              "mentor_image_url": "https://example.com/james_success_profile.jpg",
+              "background_image": "https://example.com/james_success_background.jpg"
+            },
+            "professional_details": {
+              "about": "Focused on ensuring customer satisfaction and loyalty.",
+              "skills": ["Customer Relations", "Product Knowledge", "CRM"],
+              "specialization": ["Customer Success Planning", "Client Retention"],
+              "education": ["MBA in Marketing"],
+              "experience": "6 years in customer success",
+              "year_of_experience": { "$numberInt": "6" }
+            },
+            "availability": {
+              "available_day_slots": {
+                "Tuesday": "10:00-12:00",
+                "Friday": "13:00-15:00"
+              },
+              "availability_status": "Yes"
+            },
+            "rating_info": {
+              "rating": { "$numberDouble": "4.9" },
+              "mentor_rating_trend": "Increasing",
+              "mentor_final_rating": { "$numberDouble": "4.9" }
+            },
+            "other_details": {
+              "certifications": ["Certified Customer Success Professional"],
+              "courses_taught": ["Introduction to Customer Success", "Customer Retention Strategies"],
+              "preferred_teaching_style": "Analytical",
+              "category": "Customer Service",
+              "subcategory": "Customer Success"
+            }
+          },
+          {
+            "_id": "Laura_2302",
+            "basic_info": {
+              "full_name": "Laura James",
+              "headline": "Customer Success Specialist",
+              "location": "Phoenix, USA",
+              "mentor_image_url": "https://example.com/laura_success_profile.jpg",
+              "background_image": "https://example.com/laura_success_background.jpg"
+            },
+            "professional_details": {
+              "about": "Dedicated to fostering customer success through effective strategies.",
+              "skills": ["Customer Engagement", "Retention Strategies", "CRM"],
+              "specialization": ["Onboarding", "Account Management"],
+              "education": ["BSc in Business Administration"],
+              "experience": "5 years in customer success",
+              "year_of_experience": { "$numberInt": "5" }
+            },
+            "availability": {
+              "available_day_slots": {
+                "Monday": "10:00-12:00",
+                "Wednesday": "14:00-16:00"
+              },
+              "availability_status": "Yes"
+            },
+            "rating_info": {
+              "rating": { "$numberDouble": "4.8" },
+              "mentor_rating_trend": "Stable",
+              "mentor_final_rating": { "$numberDouble": "4.8" }
+            },
+            "other_details": {
+              "certifications": ["Customer Success Certification"],
+              "courses_taught": ["Customer Onboarding Techniques", "Account Management Essentials"],
+              "preferred_teaching_style": "Project-based",
+              "category": "Customer Service",
+              "subcategory": "Customer Success"
+            }
+          }
+        ]
+      },
+      "IT Support": {
+        "IT Support Specialist": [
+          {
+            "_id": "Daniel_2401",
+            "basic_info": {
+              "full_name": "Daniel Smith",
+              "headline": "IT Support Specialist",
+              "location": "Orlando, USA",
+              "mentor_image_url": "https://example.com/daniel_it_profile.jpg",
+              "background_image": "https://example.com/daniel_it_background.jpg"
+            },
+            "professional_details": {
+              "about": "Specialized in IT infrastructure support and troubleshooting.",
+              "skills": ["Networking", "Windows Server", "Customer Support"],
+              "specialization": ["Network Configuration", "Technical Support"],
+              "education": ["BSc in Information Technology"],
+              "experience": "4 years in IT support",
+              "year_of_experience": { "$numberInt": "4" }
+            },
+            "availability": {
+              "available_day_slots": {
+                "Thursday": "10:00-12:00",
+                "Friday": "15:00-17:00"
+              },
+              "availability_status": "Yes"
+            },
+            "rating_info": {
+              "rating": { "$numberDouble": "4.7" },
+              "mentor_rating_trend": "Stable",
+              "mentor_final_rating": { "$numberDouble": "4.7" }
+            },
+            "other_details": {
+              "certifications": ["Microsoft Certified IT Support"],
+              "courses_taught": ["IT Support Essentials", "Troubleshooting Networking Issues"],
+              "preferred_teaching_style": "Interactive",
+              "category": "Customer Service",
+              "subcategory": "IT Support"
+            }
+          },
+          {
+            "_id": "Sarah_2402",
+            "basic_info": {
+              "full_name": "Sarah Adams",
+              "headline": "Senior IT Support Technician",
+              "location": "Miami, USA",
+              "mentor_image_url": "https://example.com/sarah_it_profile.jpg",
+              "background_image": "https://example.com/sarah_it_background.jpg"
+            },
+            "professional_details": {
+              "about": "Experienced in advanced IT troubleshooting and technical support.",
+              "skills": ["Windows", "Mac OS", "Networking"],
+              "specialization": ["System Troubleshooting", "Client Support"],
+              "education": ["Associate's Degree in Network Administration"],
+              "experience": "5 years in IT support",
+              "year_of_experience": { "$numberInt": "5" }
+            },
+            "availability": {
+              "available_day_slots": {
+                "Tuesday": "11:00-13:00",
+                "Thursday": "13:00-15:00"
+              },
+              "availability_status": "Yes"
+            },
+            "rating_info": {
+              "rating": { "$numberDouble": "4.6" },
+              "mentor_rating_trend": "Increasing",
+              "mentor_final_rating": { "$numberDouble": "4.6" }
+            },
+            "other_details": {
+              "certifications": ["Certified IT Technician"],
+              "courses_taught": ["Advanced Troubleshooting", "System Administration Basics"],
+              "preferred_teaching_style": "Hands-on",
+              "category": "Customer Service",
+              "subcategory": "IT Support"
+            }
+          }
+        ]
+      },
+      "Customer Onboarding": {
+        "Onboarding Specialist": [
+          {
+            "_id": "Sophie_2501",
+            "basic_info": {
+              "full_name": "Sophie White",
+              "headline": "Customer Onboarding Specialist",
+              "location": "Denver, USA",
+              "mentor_image_url": "https://example.com/sophie_onboarding_profile.jpg",
+              "background_image": "https://example.com/sophie_onboarding_background.jpg"
+            },
+            "professional_details": {
+              "about": "Specialized in guiding new customers through onboarding processes.",
+              "skills": ["Customer Relations", "Product Knowledge", "CRM"],
+              "specialization": ["Client Engagement", "Process Optimization"],
+              "education": ["BSc in Business Management"],
+              "experience": "3 years in onboarding",
+              "year_of_experience": { "$numberInt": "3" }
+            },
+            "availability": {
+              "available_day_slots": {
+                "Wednesday": "09:00-11:00",
+                "Friday": "10:00-12:00"
+              },
+              "availability_status": "Yes"
+            },
+            "rating_info": {
+              "rating": { "$numberDouble": "4.8" },
+              "mentor_rating_trend": "Stable",
+              "mentor_final_rating": { "$numberDouble": "4.8" }
+            },
+            "other_details": {
+              "certifications": ["Certified Customer Onboarding Professional"],
+              "courses_taught": ["Onboarding Best Practices", "Optimizing Customer Journeys"],
+              "preferred_teaching_style": "Analytical",
+              "category": "Customer Service",
+              "subcategory": "Customer Onboarding"
+            }
+          },
+          {
+            "_id": "Mike_2502",
+            "basic_info": {
+              "full_name": "Mike Green",
+              "headline": "Senior Onboarding Manager",
+              "location": "Seattle, USA",
+              "mentor_image_url": "https://example.com/mike_onboarding_profile.jpg",
+              "background_image": "https://example.com/mike_onboarding_background.jpg"
+            },
+            "professional_details": {
+              "about": "Experienced in managing customer onboarding teams and processes.",
+              "skills": ["Team Management", "Process Development", "Customer Success"],
+              "specialization": ["Training Development", "Client Satisfaction"],
+              "education": ["MBA in Customer Success"],
+              "experience": "6 years in onboarding management",
+              "year_of_experience": { "$numberInt": "6" }
+            },
+            "availability": {
+              "available_day_slots": {
+                "Monday": "09:00-11:00",
+                "Thursday": "14:00-16:00"
+              },
+              "availability_status": "Yes"
+            },
+            "rating_info": {
+              "rating": { "$numberDouble": "4.7" },
+              "mentor_rating_trend": "Increasing",
+              "mentor_final_rating": { "$numberDouble": "4.7" }
+            },
+            "other_details": {
+              "certifications": ["Certified Onboarding Manager"],
+              "courses_taught": ["Developing Effective Onboarding Programs", "Customer Retention through Onboarding"],
+              "preferred_teaching_style": "Interactive",
+              "category": "Customer Service",
+              "subcategory": "Customer Onboarding"
+            }
+          }
+        ]
+      },
+      "Email, Phone & Chat Support": {
+        "Support Specialist": [
+          {
+            "_id": "Amy_2601",
+            "basic_info": {
+              "full_name": "Amy Hill",
+              "headline": "Support Specialist",
+              "location": "Portland, USA",
+              "mentor_image_url": "https://example.com/amy_support_profile.jpg",
+              "background_image": "https://example.com/amy_support_background.jpg"
+            },
+            "professional_details": {
+              "about": "Experienced in handling customer inquiries via email, phone, and chat.",
+              "skills": ["Customer Interaction", "Email Management", "Live Chat Support"],
+              "specialization": ["Multichannel Support", "Customer Engagement"],
+              "education": ["BA in Communications"],
+              "experience": "4 years in multichannel support",
+              "year_of_experience": { "$numberInt": "4" }
+            },
+            "availability": {
+              "available_day_slots": {
+                "Tuesday": "10:00-12:00",
+                "Friday": "14:00-16:00"
+              },
+              "availability_status": "Yes"
+            },
+            "rating_info": {
+              "rating": { "$numberDouble": "4.8" },
+              "mentor_rating_trend": "Stable",
+              "mentor_final_rating": { "$numberDouble": "4.8" }
+            },
+            "other_details": {
+              "certifications": ["Customer Service Multichannel Expert"],
+              "courses_taught": ["Live Chat Best Practices", "Handling Phone Inquiries"],
+              "preferred_teaching_style": "Interactive",
+              "category": "Customer Service",
+              "subcategory": "Email, Phone & Chat Support"
+            }
+          },
+          {
+            "_id": "Brian_2602",
+            "basic_info": {
+              "full_name": "Brian Taylor",
+              "headline": "Phone Support Specialist",
+              "location": "San Francisco, USA",
+              "mentor_image_url": "https://example.com/brian_support_profile.jpg",
+              "background_image": "https://example.com/brian_support_background.jpg"
+            },
+            "professional_details": {
+              "about": "Focuses on providing technical support and solutions over the phone.",
+              "skills": ["Phone Support", "Technical Assistance", "Customer Relations"],
+              "specialization": ["Phone Communication", "Issue Resolution"],
+              "education": ["Associate's Degree in Customer Service"],
+              "experience": "3 years in phone support",
+              "year_of_experience": { "$numberInt": "3" }
+            },
+            "availability": {
+              "available_day_slots": {
+                "Monday": "10:00-12:00",
+                "Thursday": "15:00-17:00"
+              },
+              "availability_status": "Yes"
+            },
+            "rating_info": {
+              "rating": { "$numberDouble": "4.7" },
+              "mentor_rating_trend": "Increasing",
+              "mentor_final_rating": { "$numberDouble": "4.7" }
+            },
+            "other_details": {
+              "certifications": ["Certified Phone Support Specialist"],
+              "courses_taught": ["Phone Etiquette", "Resolving Issues via Phone Support"],
+              "preferred_teaching_style": "Hands-on",
+              "category": "Customer Service",
+              "subcategory": "Email, Phone & Chat Support"
+            }
+          }
+        ]
+      }
+    }
+  }
+]

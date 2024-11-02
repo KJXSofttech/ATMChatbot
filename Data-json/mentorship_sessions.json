@@ -1,0 +1,102 @@
+[
+  {
+    "_id": "session_001",
+    "mentor_id": "mentor_001",
+    "mentor_final_rating": 4.7,
+    "mentees": [
+      {
+        "mentee_id": "mentee_101",
+        "mentee_name": "Devam",
+        "requested_slot_date": "2024-10-01",
+        "requested_slot": "09:00 - 10:00",
+        "status": "Accepted",
+        "session_type": "One-on-One",
+        "session_actual_duration": "60 mins",
+        "session_held": "On time",
+        "mentor_response_time": "within 24 hours",
+        "feedback": "Insightful session, very helpful.",
+        "mentee_rating": 5,
+        "mentee_satisfaction_level": "Positive",
+        "_id": "unique-session-id-1"
+      }
+    ]
+  },
+  {
+    "_id": "session_002",
+    "mentor_id": "mentor_002",
+    "mentor_final_rating": 4.8,
+    "mentees": [
+      {
+        "mentee_id": "mentee_102",
+        "mentee_name": "Devam",
+        "requested_slot_date": "2024-10-05",
+        "requested_slot": "11:00 - 12:30",
+        "status": "Pending",
+        "session_type": "Workshop",
+        "mentor_response_time": "within 48 hours",
+        "_id": "unique-session-id-2"
+      }
+    ]
+  },
+  {
+    "_id": "session_003",
+    "mentor_id": "mentor_003",
+    "mentor_final_rating": 4.9,
+    "mentees": [
+      {
+        "mentee_id": "mentee_103",
+        "mentee_name": "Devam",
+        "requested_slot_date": "2024-10-08",
+        "requested_slot": "14:00 - 15:30",
+        "status": "Completed",
+        "session_type": "Seminar",
+        "session_actual_duration": "90 mins",
+        "session_held": "On time",
+        "mentor_response_time": "within 24 hours",
+        "feedback": "Engaging seminar, learned a lot!",
+        "mentee_rating": 4,
+        "mentee_satisfaction_level": "Positive",
+        "_id": "unique-session-id-3"
+      }
+    ]
+  },
+  {
+    "_id": "session_004",
+    "mentor_id": "mentor_004",
+    "mentor_final_rating": 4.5,
+    "mentees": [
+      {
+        "mentee_id": "mentee_104",
+        "mentee_name": "Alice Johnson",
+        "requested_slot_date": "2024-10-10",
+        "requested_slot": "15:00 - 16:30",
+        "status": "Accepted",
+        "session_type": "Group Session",
+        "session_actual_duration": "90 mins",
+        "session_held": "Delayed",
+        "mentor_response_time": "within 24 hours",
+        "feedback": "Session started late but was useful.",
+        "mentee_rating": 4,
+        "mentee_satisfaction_level": "Neutral",
+        "_id": "unique-session-id-4"
+      }
+    ]
+  },
+  {
+    "_id": "session_005",
+    "mentor_id": "mentor_005",
+    "mentor_final_rating": 4.6,
+    "mentees": [
+      {
+        "mentee_id": "mentee_105",
+        "mentee_name": "Charlie Brown",
+        "requested_slot_date": "2024-10-12",
+        "requested_slot": "10:00 - 11:00",
+        "status": "Rejected",
+        "session_type": "One-on-One",
+        "mentor_response_time": "within 24 hours",
+        "_id": "unique-session-id-5"
+      }
+    ]
+  }
+]

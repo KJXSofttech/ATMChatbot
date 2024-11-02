@@ -92,9 +92,7 @@ function processUserInput(userInput, isManual) {
     const payload = {
         message: userInput,
         current_tag: currentTag,
-        phone_number: userData.phone_number,
-        name: userData.name,
-        email: userData.email,
+        user_data: userData,
         is_manual: isManual
     };
 
@@ -110,6 +108,7 @@ function processUserInput(userInput, isManual) {
         if (data.error) {
             addMessage(data.error, 'bot-message');
         } else {
+            userData = data.user_data; // Update user data
             displayMessages(data.response, 0, data.options, data.tag);
         }
     })
@@ -178,6 +177,7 @@ function startConversation() {
         if (data.error) {
             addMessage(data.error, 'bot-message');
         } else {
+            userData = {}; // Reset user data
             displayMessages(data.response, 0, data.options, data.tag);
         }
     })
